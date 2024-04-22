@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'listings'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +81,7 @@ DATABASES = {
         'NAME': 'craigslist_db',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'db',  
+        'HOST': 'db', 
         'PORT': '5432',
     }
 }
